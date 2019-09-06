@@ -1,2 +1,10 @@
-int main void
-request full
+#include <stdio.h>
+
+int main(){
+  int x;
+
+  scanf("%d", &x);
+  printf("numero digitado: %d", x);
+  
+  return 0;
+}
